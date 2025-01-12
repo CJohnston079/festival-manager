@@ -3,7 +3,6 @@ import pytest
 from src.add_entrants_to_lesson import add_entrants_to_lesson
 
 
-@pytest.mark.xfail
 class TestAddEntrantsToLesson:
     @pytest.fixture
     def test_data(self):
