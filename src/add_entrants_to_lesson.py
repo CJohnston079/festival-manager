@@ -1,3 +1,5 @@
+from utils.read_csv import read_csv
+
 def add_entrants_to_lesson(lesson_file, entrants_file):
     lesson_keys = ["Number", "Name", "Max Duration"]
     lessons = []

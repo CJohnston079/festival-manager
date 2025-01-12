@@ -5,7 +5,6 @@ import pytest
 from src.utils.read_csv import read_csv
 
 
-@pytest.mark.xfail
 class TestReadCSV:
     @pytest.fixture
     def temp_csv_file(self):
@@ -24,7 +23,7 @@ class TestReadCSV:
 
         if os.path.exists(file_name):
             os.remove(file_name)
-    
+
     def test_returns_list_of_dicts(self, temp_csv_file):
         file_name, expected_data = temp_csv_file
         result = read_csv(file_name)
