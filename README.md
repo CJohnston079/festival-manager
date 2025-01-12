@@ -1,3 +1,3 @@
 # Festival Manager
 
-A programme to aid Festial organisers in running their Festival.
+A programme to aid Festival organisers in running their Festival.
