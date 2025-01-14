@@ -3,7 +3,6 @@ import pytest
 from src.calculate_lesson_time import calculate_lesson_time
 
 
-@pytest.mark.xfail
 class TestCalculateLessonTime():
     @pytest.mark.parametrize(
         "entries, allocated_time, expected",
